@@ -29,3 +29,5 @@ int main() {
 
     return 0;
 }
+// Độ phức tạp là: O(n) với n là số lượng phần tử trong mảng
+// Độ phức tạp không gian: O(1) vì không cần bộ nhớ phụ để lưu trữ dữ liệu
