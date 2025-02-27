@@ -32,5 +32,3 @@ int main() {
 
     return 0;
 }
-// Độ phức tạp thời gian: O(log(n))
-// Độ phức tạp không gian: O(1)
