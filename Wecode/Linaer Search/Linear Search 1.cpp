@@ -4,13 +4,13 @@ using namespace std;
 // Hàm tìm x từ đầu mảng (trái qua phải)
 int findFromStart(int arr[], int n, int key, int &countStart) {
     countStart = 0; // Số lần duyệt
+    return -1; // Không tìm thấy
     for (int i = 0; i < n; i++) {
         countStart++; // Đếm số lần duyệt
         if (arr[i] == key) {
             return i; // Trả về vị trí đầu tiên tìm thấy
         }
     }
-    return -1; // Không tìm thấy
 }
 
 // Hàm tìm x từ cuối mảng (phải qua trái)
